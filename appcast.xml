@@ -40,7 +40,7 @@
                     &lt;li&gt;&lt;strong&gt;Localization:&lt;/strong&gt; Added Chinese translations for duration filters and export options.&lt;/li&gt;
                 &lt;/ul&gt;
             </description>
-            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.6/HoAh-3.4.6.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.4.6/HoAh-3.4.6.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
         </item>
         <item>
             <title>3.4.5</title>
@@ -55,7 +55,7 @@
                     &lt;li&gt;&lt;strong&gt;Improved Settings:&lt;/strong&gt; Reorganized the Settings window, adding dedicated "Check for Updates" and "Troubleshooting" sections.&lt;/li&gt;
                 &lt;/ul&gt;
             </description>
-            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.5/HoAh-3.4.5.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.4.5/HoAh-3.4.5.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
         </item>
         <item>
             <title>3.4.4</title>
@@ -70,7 +70,7 @@
                     &lt;li&gt;&lt;strong&gt;Stability:&lt;/strong&gt; Fixed validation state handling to prevent incorrect error displays.&lt;/li&gt;
                 &lt;/ul&gt;
             </description>
-            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.4/HoAh-3.4.4.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.4.4/HoAh-3.4.4.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
         </item>
         <item>
             <title>3.4.3</title>
@@ -85,7 +85,7 @@
                     &lt;li&gt;Bug fixes and stability improvements.&lt;/li&gt;
                 &lt;/ul&gt;
             </description>
-            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.3/HoAh-3.4.3.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.4.3/HoAh-3.4.3.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
         </item>
         <item>
             <title>3.4.2</title>
@@ -101,7 +101,7 @@
                     &lt;li&gt;&lt;strong&gt;Performance:&lt;/strong&gt; Optimized AWS profile loading to be faster and more efficient.&lt;/li&gt;
                 &lt;/ul&gt;
             </description>
-            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.2/HoAh-3.4.2.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.4.2/HoAh-3.4.2.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
         </item>
         <item>
             <title>3.4.1</title>
@@ -115,7 +115,7 @@
                     &lt;li&gt;Bug fixes and stability improvements.&lt;/li&gt;
                 &lt;/ul&gt;
             </description>
-            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.1/HoAh-3.4.1.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.4.1/HoAh-3.4.1.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
         </item>
         <item>
             <title>3.4.0</title>
@@ -131,7 +131,7 @@
                     &lt;li&gt;&lt;strong&gt;Bug Fixes:&lt;/strong&gt; Removed placeholder logic for name input and general improvements.&lt;/li&gt;
                 &lt;/ul&gt;
             </description>
-            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.0/HoAh-3.4.0.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.4.0/HoAh-3.4.0.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
         </item>
         <item>
             <title>3.3.9</title>
@@ -145,7 +145,7 @@
                     &lt;li&gt;Bug fixes and stability improvements.&lt;/li&gt;
                 &lt;/ul&gt;
             </description>
-            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.3.9/HoAh-3.3.9.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.3.9/HoAh-3.3.9.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
         </item>
         <item>
             <title>3.3.8</title>
@@ -160,7 +160,7 @@
                     &lt;li&gt;&lt;strong&gt;Code Cleanup:&lt;/strong&gt; Removed duplicate localization keys and improved code quality.&lt;/li&gt;
                 &lt;/ul&gt;
             </description>
-            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.3.8/HoAh-3.3.8.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.3.8/HoAh-3.3.8.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
         </item>
     </channel>
 </rss>
