@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoAh User Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHF7KEGB0C"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BHF7KEGB0C');
+    </script>
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="glow-bg"></div>
+
+    <header>
+        <a href="../" class="logo-container">
+            <span class="logo-text" data-i18n="common.appName">HoAh</span>
+        </a>
+        <div class="header-right">
+            <button id="lang-toggle" class="lang-toggle">EN / 中</button>
+        </div>
+    </header>
+
+    <main class="help-container">
+        <!-- Header -->
+        <div class="help-header">
+            <a href="../" class="back-link" data-i18n="help.back">← Back to Home</a>
+            <h1 class="help-title" data-i18n="guide.title">HoAh User Guide</h1>
+            <p class="help-subtitle" data-i18n="guide.subtitle">
+                Master the basics of HoAh in 1 minute.
+            </p>
+        </div>
+
+        <!-- Step 1: Download Model (Moved to Top) -->
+        <div class="step-section">
+            <div class="step-title" data-i18n="guide.step1.title">1. Download Local Model</div>
+            <div class="step-desc" data-i18n="guide.step1.desc">
+                For offline use, click <strong>Dictation Models</strong> in the sidebar (no need to open Settings).
+                Select any local model (e.g., <strong>Large v3 Turbo</strong>) and click <strong>Download</strong>. We
+                recommend downloading at least one.
+            </div>
+
+            <div
+                style="margin-top: 1.5rem; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: 12px; border: 1px solid var(--glass-border);">
+                <div style="display: flex; gap: 2rem; align-items: center; justify-content: center; height: 100px;">
+                    <!-- Simple visual representation using emoji/icons -->
+                    <div style="text-align: center;">
+                        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🧠</div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">Dictation Models</div>
+                    </div>
+                    <div style="font-size: 1.5rem; color: var(--text-muted);">→</div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 2rem; margin-bottom: 0.5rem;">⬇️</div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">Download</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 2: How to Dictate (Moved to Second) -->
+        <div class="step-section">
+            <div class="step-title" data-i18n="guide.step2.title">2. How to Dictate</div>
+            <div class="step-desc" data-i18n="guide.step2.desc">
+                By default, press the <strong>Right Option (⌥) Key</strong> to start recording. Press it again to stop
+                (Toggle Mode), or hold it to talk (Push-to-Talk Mode).
+            </div>
+        </div>
+
+        <!-- Tip: Cancel -->
+        <div class="step-section">
+            <div class="step-title" data-i18n="guide.cancel.title">3. Cancel Recording</div>
+            <div class="step-desc" data-i18n="guide.cancel.desc">
+                Double-tap <strong>Escape</strong> to discard the current recording instantly.
+            </div>
+        </div>
+
+        <!-- Step 4: Advanced AI -->
+        <div class="step-section">
+            <div class="step-title" data-i18n="guide.advanced.title">4. Advanced: Enable AI Polish</div>
+            <div class="step-desc" data-i18n="guide.advanced.desc">
+                Want to fix grammar or translate? <br>1. Get a free <a href='../help/' class='inline-link'>Key</a>
+                (e.g. Groq).<br>2. In sidebar, click <strong>AI Action</strong> → <strong>Add
+                    Configuration</strong>.<br>3. Paste your key and <strong>Save</strong>.<br>4. Turn on <strong>Enable
+                    AI Action</strong>.<br>5. Select a <strong>Default Action</strong> (e.g. Polish).
+            </div>
+        </div>
+
+        <!-- Step 5: Pro Tips -->
+        <div class="step-section">
+            <div class="step-title" data-i18n="guide.protips.title">5. Pro Tips</div>
+            <div class="step-desc" data-i18n="guide.protips.desc">
+                <strong>Mini Recorder:</strong> <strong>Hover</strong> over the icon to quickly switch AI Actions or
+                view the last 3 history items.<br><strong>Shortcuts:</strong> Use <code>Cmd + 1/2/3/4</code> to switch
+                <strong>AI Actions</strong> instantly.
+            </div>
+        </div>
+
+        <!-- Step 6: More Settings -->
+        <div class="step-section">
+            <div class="step-title" data-i18n="guide.more_settings.title">6. Useful Settings</div>
+            <div class="step-desc" data-i18n="guide.more_settings.desc">
+                • <strong>General:</strong> Set <strong>Launch at Login</strong> or <strong>Hide Dock Icon</strong> to
+                run in background.<br>• <strong>History:</strong> Auto-delete old transcripts in <strong>Data &
+                    Privacy</strong>.<br>• <strong>History View:</strong> <strong>Search</strong> past text, view raw
+                transcripts, copy, or <strong>Export</strong> with one click.
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 HoAh. Open Source under GPL-3.0.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../data.js"></script>
+    <script src="../script.js"></script>
+</body>
+
+</html>

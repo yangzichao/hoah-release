@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoAh AI Setup Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHF7KEGB0C"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BHF7KEGB0C');
+    </script>
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="glow-bg"></div>
+
+    <header>
+        <a href="../" class="logo-container">
+            <span class="logo-text" data-i18n="common.appName">HoAh</span>
+        </a>
+        <div class="header-right">
+            <button id="lang-toggle" class="lang-toggle">EN / 中</button>
+        </div>
+    </header>
+
+    <main class="help-container">
+        <!-- Header -->
+        <div class="help-header">
+            <a href="../" class="back-link" data-i18n="help.back">← Back to Home</a>
+            <h1 class="help-title" data-i18n="help.title">Get Started with HoAh AI</h1>
+            <p class="help-subtitle" data-i18n="help.subtitle">
+                HoAh uses powerful AI models to polish and translate your voice. To do this, you need a "Key" from an AI
+                provider. Don't worry, it's easy and often free!
+            </p>
+        </div>
+
+        <!-- Step 1 -->
+        <div class="step-section">
+            <div class="step-title" data-i18n="help.step1.title">1. What is an API Key?</div>
+            <div class="step-desc" data-i18n="help.step1.desc">
+                Think of an API Key as a digital <strong>VIP Pass</strong>. It allows HoAh to send your text to a
+                super-smart AI brain (like ChatGPT) for processing and get the result back. You are in full control of
+                this key.
+            </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-section">
+            <div class="step-title" data-i18n="help.step2.title">2. Choose a Provider</div>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem;" data-i18n="help.step2.desc">
+                There are many AI providers. We recommended <strong>Groq</strong> for speed (instant) or
+                <strong>OpenAI</strong> for quality.
+            </p>
+
+            <div class="provider-grid">
+                <!-- Groq -->
+                <div class="provider-card">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">⚡️</div>
+                    <h3 class="provider-name">Groq</h3>
+                    <p class="provider-desc" data-i18n="help.provider.groq.desc">
+                        Extremely fast. <strong>Free tier available</strong>. Perfect for real-time dictation polish.
+                    </p>
+                    <div class="btn-group">
+                        <a href="https://console.groq.com/keys" target="_blank" class="provider-btn"
+                            data-i18n="help.provider.btn">Get Key</a>
+                        <a href="https://console.groq.com/docs" target="_blank" class="provider-guide-link"
+                            data-i18n="help.provider.guide">View Guide</a>
+                    </div>
+                </div>
+
+                <!-- Cerebras -->
+                <div class="provider-card">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🚀</div>
+                    <h3 class="provider-name">Cerebras</h3>
+                    <p class="provider-desc" data-i18n="help.provider.cerebras.desc">
+                        World's fastest AI inference. <strong>Free tier available</strong>. Powered by custom
+                        wafer-scale chips.
+                    </p>
+                    <div class="btn-group">
+                        <a href="https://cloud.cerebras.ai/platform/api-keys" target="_blank" class="provider-btn"
+                            data-i18n="help.provider.btn">Get Key</a>
+                        <a href="https://inference-docs.cerebras.ai/" target="_blank" class="provider-guide-link"
+                            data-i18n="help.provider.guide">View Guide</a>
+                    </div>
+                </div>
+
+                <!-- OpenAI -->
+                <div class="provider-card">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🧠</div>
+                    <h3 class="provider-name">OpenAI</h3>
+                    <p class="provider-desc" data-i18n="help.provider.openai.desc">
+                        The industry standard. High intelligence. <strong>Paid</strong> (pay-as-you-go). Best for
+                        complex translations.
+                    </p>
+                    <div class="btn-group">
+                        <a href="https://platform.openai.com/api-keys" target="_blank" class="provider-btn"
+                            data-i18n="help.provider.btn">Get Key</a>
+                        <a href="https://platform.openai.com/docs/overview" target="_blank" class="provider-guide-link"
+                            data-i18n="help.provider.guide">View Guide</a>
+                    </div>
+                </div>
+
+                <!-- Gemini -->
+                <div class="provider-card">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">💎</div>
+                    <h3 class="provider-name">Google Gemini</h3>
+                    <p class="provider-desc" data-i18n="help.provider.gemini.desc">
+                        Google's powerful model. <strong>Free tier available</strong>. Good balance of speed and smarts.
+                    </p>
+                    <div class="btn-group">
+                        <a href="https://aistudio.google.com/app/apikey" target="_blank" class="provider-btn"
+                            data-i18n="help.provider.btn">Get Key</a>
+                        <a href="https://ai.google.dev/gemini-api/docs/api-key" target="_blank"
+                            class="provider-guide-link" data-i18n="help.provider.guide">View Guide</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 HoAh. Open Source under GPL-3.0.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../data.js"></script>
+    <script src="../script.js"></script>
+</body>
+
+</html>

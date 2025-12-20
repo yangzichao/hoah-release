@@ -1,0 +1,38 @@
+/* Language Toggle Style Plan */
+
+.lang-toggle {
+    text-decoration: none;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 99px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-family: var(--font-main);
+    letter-spacing: 0.5px;
+
+    /* Fixed positioning overrides */
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    z-index: 1000;
+}
+
+.lang-toggle:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-color: rgba(255, 255, 255, 0.25);
+    transform: translateY(0);
+    /* No float for this small UI element */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.lang-toggle:active {
+    transform: scale(0.95);
+    background: rgba(255, 255, 255, 0.15);
+}

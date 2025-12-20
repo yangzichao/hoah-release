@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoAh - Speech-to-Text, Refined</title>
+    <meta name="description"
+        content="Fast, local, multilingual speech-to-text for macOS. Polish, translate, and transform your voice with AI.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHF7KEGB0C"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BHF7KEGB0C');
+    </script>
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="glow-bg"></div>
+
+    <header>
+        <a href="index.html" class="logo-container">
+            <span class="logo-text" data-i18n="common.appName">HoAh</span>
+        </a>
+        <div class="header-right">
+            <button id="lang-toggle" class="lang-toggle">EN / 中</button>
+            <a href="https://github.com/yangzichao/hoah-dictation" target="_blank" class="icon-link"
+                aria-label="GitHub">
+                <svg height="22" width="22" viewBox="0 0 16 16" fill="currentColor">
+                    <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero centered-hero">
+            <div class="container column-layout">
+                <div class="hero-content text-center">
+                    <h1 class="hero-title">
+                        <span class="gradient-text-1" data-i18n="hero.title.1">Capture</span>
+                        <span class="gradient-text-2" data-i18n="hero.title.2">Refine</span>
+                        <span class="gradient-text-3" data-i18n="hero.title.3">Transform</span>
+                    </h1>
+                    <p class="hero-subtitle" data-i18n="hero.subtitle">
+                        <strong>Fast, Local, Multilingual</strong>, and <strong>Non-Profit & Free</strong>
+                        speech-to-text for macOS. <strong>Polished by AI</strong>, <strong>Translate Any
+                            Language</strong> (even 🐱, 🐶 & 👽!).
+                    </p>
+
+                    <div class="cta-group">
+                        <a href="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.6/HoAh-3.4.6.dmg"
+                            id="download-btn" class="cta-button primary">
+                            <span class="icon">↓</span>
+                            <span class="text">Download v3.4.6</span>
+                        </a>
+                        <p class="cta-note" id="download-note">macOS 14.0+ • Apple Silicon</p>
+                        <!-- Added Help Link -->
+                        <div
+                            style="display: flex; gap: 2rem; justify-content: center; align-items: center; margin-top: 1rem;">
+                            <a href="guide/" class="help-cta-link" data-i18n="hero.guide_link"
+                                style="margin-top: 0;">User Guide →</a>
+                            <a href="help/" class="help-cta-link" data-i18n="hero.help_link"
+                                style="margin-top: 0; color: var(--accent-purple);">New to AI? Setup Guide →</a>
+                        </div>
+
+                        <p class="model-disclaimer" data-i18n="hero.disclaimer">* Demo outputs generated using
+                            <strong>gpt-oss-120B</strong>. Actual results may vary based on model selection.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scrolling Cards Marquee (Outside Container for Layout Stability) -->
+            <div class="marquee-container">
+                <div class="marquee-track">
+                    <!-- Cards will be injected by script.js -->
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="card-icon">🎙️</div>
+                        <h3 data-i18n="feat.core.title">Local & Multilingual</h3>
+                        <p data-i18n="feat.core.desc">
+                            Powered by local Whisper models. Speak freely in a mix of any languages.
+                            Your audio never leaves your Mac.
+                        </p>
+                    </div>
+                    <div class="feature-card highlighted">
+                        <div class="card-icon">✨</div>
+                        <h3 data-i18n="feat.polish.title">AI Polish</h3>
+                        <p data-i18n="feat.polish.desc">
+                            Turn rambling thoughts into crisp, professional prose. HoAh removes fillers,
+                            fixes grammar, and structures your text instantly.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="card-icon">⚡️</div>
+                        <h3 data-i18n="feat.transform.title">Any-to-Any Translation</h3>
+                        <p data-i18n="feat.transform.desc">
+                            Universal translation between any languages. English to Chinese, Spanish to German,
+                            or even <strong>🐱, 🐶 & 👽 to Human</strong>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="details">
+            <div class="container">
+                <div class="detail-row">
+                    <div class="detail-text">
+                        <h2 data-i18n="detail.privacy.title">Privacy First. Always.</h2>
+                        <p data-i18n="detail.privacy.desc">
+                            HoAh is designed efficiently to run powerful AI models locally on Apple Silicon.
+                            <strong>Forever Free.</strong> No sign-up, no ads, no subscriptions, no data collection.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trusted By Strip -->
+        <section class="user-companies">
+            <p class="company-label" data-i18n="companies.label">Trusted by users at</p>
+            <div class="company-marquee">
+                <div class="company-track">
+                    <!-- Set 1 -->
+                    <img src="assets/logos/google.svg" alt="Google" />
+                    <img src="assets/logos/amazon.svg" alt="Amazon" />
+                    <img src="assets/logos/bytedance.svg" alt="ByteDance" />
+                    <img src="assets/logos/uw.svg" alt="University of Washington" />
+                    <img src="assets/logos/rochester.svg" alt="University of Rochester" />
+                    <img src="assets/logos/cornell.svg" alt="Cornell University" />
+
+                    <!-- Set 2 -->
+                    <img src="assets/logos/google.svg" alt="Google" />
+                    <img src="assets/logos/amazon.svg" alt="Amazon" />
+                    <img src="assets/logos/bytedance.svg" alt="ByteDance" />
+                    <img src="assets/logos/uw.svg" alt="University of Washington" />
+                    <img src="assets/logos/rochester.svg" alt="University of Rochester" />
+                    <img src="assets/logos/cornell.svg" alt="Cornell University" />
+
+                    <!-- Set 3 -->
+                    <img src="assets/logos/google.svg" alt="Google" />
+                    <img src="assets/logos/amazon.svg" alt="Amazon" />
+                    <img src="assets/logos/bytedance.svg" alt="ByteDance" />
+                    <img src="assets/logos/uw.svg" alt="University of Washington" />
+                    <img src="assets/logos/rochester.svg" alt="University of Rochester" />
+                    <img src="assets/logos/cornell.svg" alt="Cornell University" />
+
+                    <!-- Set 4 (Just to be safe for wide layouts) -->
+                    <img src="assets/logos/google.svg" alt="Google" />
+                    <img src="assets/logos/amazon.svg" alt="Amazon" />
+                    <img src="assets/logos/bytedance.svg" alt="ByteDance" />
+                    <img src="assets/logos/uw.svg" alt="University of Washington" />
+                    <img src="assets/logos/rochester.svg" alt="University of Rochester" />
+                    <img src="assets/logos/cornell.svg" alt="Cornell University" />
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <p>&copy; 2025 HoAh. Open Source under GPL-3.0.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="data.js"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
