@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // --- Download Version Check ---
-    const repo = 'yangzichao/hoah-dictation';
+    const repo = 'yangzichao/hoah-release';
     const noteEl = document.getElementById('download-note');
     const versionBtn = document.getElementById('download-btn');
 
