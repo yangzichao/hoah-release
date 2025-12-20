@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>HoAh Releases</title>
+        <item>
+            <title>3.4.7</title>
+            <pubDate>Sat, 20 Dec 2025 06:51:20 +0000</pubDate>
+            <sparkle:version>347</sparkle:version>
+            <sparkle:shortVersionString>3.4.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>&lt;![CDATA[
+
+# HoAh Dictation v3.4.7
+
+### New Features
+* **Daily Markdown Export**: You can now export your transcription history as daily Markdown files, neatly organized in a folder with `hoah-` prefix. Perfect for Obsidian or other note-taking apps!
+* **Improved Localization**: Refined Chinese and English translations for export features.
+
+### Improvements
+* **CSV Export**: The option to export as a single CSV file is now clearly labeled.
+* **Release Pipeline**: Migrated to a new secure release infrastructure for better stability.
+
+### Fixes
+* **Localization Fixes**: Resolved XML structure issues in localization files.
+
+]]&gt;</description>
+            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.4.7/HoAh-3.4.7.dmg" length="0" type="application/octet-stream" />
+        </item>
+        <item>
+            <title>3.4.6</title>
+            <pubDate>Thu, 18 Dec 2025 08:40:00 +0000</pubDate>
+            <sparkle:version>346</sparkle:version>
+            <sparkle:shortVersionString>3.4.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>
+                &lt;h3&gt;What's New in Version 3.4.6&lt;/h3&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;strong&gt;UI Enhancements:&lt;/strong&gt; Redesigned the Transcription History filter and search bar for a cleaner, more modern look.&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;Export Filtered:&lt;/strong&gt; The "Export" button now explicitly states "Export Filtered" to clarify that it exports results based on current filters.&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;Localization:&lt;/strong&gt; Added Chinese translations for duration filters and export options.&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.6/HoAh-3.4.6.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+        </item>
+        <item>
+            <title>3.4.5</title>
+            <pubDate>Wed, 17 Dec 2025 23:50:00 +0000</pubDate>
+            <sparkle:version>345</sparkle:version>
+            <sparkle:shortVersionString>3.4.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>
+                &lt;h3&gt;What's New in Version 3.4.5&lt;/h3&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;strong&gt;New User Guide:&lt;/strong&gt; Completely revamped the Help section with a concise User Guide and API Setup Guide.&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;Improved Settings:&lt;/strong&gt; Reorganized the Settings window, adding dedicated "Check for Updates" and "Troubleshooting" sections.&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.5/HoAh-3.4.5.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+        </item>
+        <item>
+            <title>3.4.4</title>
+            <pubDate>Wed, 17 Dec 2025 23:40:00 +0000</pubDate>
+            <sparkle:version>344</sparkle:version>
+            <sparkle:shortVersionString>3.4.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>
+                &lt;h3&gt;What's New in Version 3.4.4&lt;/h3&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;strong&gt;Error Feedback:&lt;/strong&gt; Enhanced error reporting for AI configurations. Now shows specific errors in the menu bar and settings status.&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;Stability:&lt;/strong&gt; Fixed validation state handling to prevent incorrect error displays.&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.4/HoAh-3.4.4.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+        </item>
+        <item>
+            <title>3.4.3</title>
+            <pubDate>Wed, 17 Dec 2025 23:30:00 +0000</pubDate>
+            <sparkle:version>343</sparkle:version>
+            <sparkle:shortVersionString>3.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>
+                &lt;h3&gt;What's New in Version 3.4.3&lt;/h3&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;strong&gt;UI Improvements:&lt;/strong&gt; Removed the help link for API Keys and disabled auto-fill for configuration names.&lt;/li&gt;
+                    &lt;li&gt;Bug fixes and stability improvements.&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.3/HoAh-3.4.3.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+        </item>
+        <item>
+            <title>3.4.2</title>
+            <pubDate>Wed, 17 Dec 2025 18:30:00 +0000</pubDate>
+            <sparkle:version>342</sparkle:version>
+            <sparkle:shortVersionString>3.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>
+                &lt;h3&gt;What's New in Version 3.4.2&lt;/h3&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;strong&gt;UX Improvements:&lt;/strong&gt; Creating or editing AI configurations no longer overwrites your custom name when switching providers.&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;AWS Bedrock:&lt;/strong&gt; Fixed an issue where discontinued models (e.g., Nova) could appear in the selection list.&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;Performance:&lt;/strong&gt; Optimized AWS profile loading to be faster and more efficient.&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.2/HoAh-3.4.2.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+        </item>
+        <item>
+            <title>3.4.1</title>
+            <pubDate>Wed, 17 Dec 2025 17:00:00 +0000</pubDate>
+            <sparkle:version>341</sparkle:version>
+            <sparkle:shortVersionString>3.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>
+                &lt;h3&gt;What's New in Version 3.4.1&lt;/h3&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Bug fixes and stability improvements.&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.1/HoAh-3.4.1.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+        </item>
+        <item>
+            <title>3.4.0</title>
+            <pubDate>Tue, 16 Dec 2025 23:00:00 +0000</pubDate>
+            <sparkle:version>340</sparkle:version>
+            <sparkle:shortVersionString>3.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>
+                &lt;h3&gt;What's New in Version 3.4.0&lt;/h3&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;strong&gt;AI Prompts:&lt;/strong&gt; Deprecated System Instructions and refined prompt templates for better performance.&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;UI Enhancements:&lt;/strong&gt; Refined Homepage Demo Cards and Logo Display.&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;Bug Fixes:&lt;/strong&gt; Removed placeholder logic for name input and general improvements.&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.4.0/HoAh-3.4.0.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+        </item>
+        <item>
+            <title>3.3.9</title>
+            <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+            <sparkle:version>339</sparkle:version>
+            <sparkle:shortVersionString>3.3.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>
+                &lt;h3&gt;What's New in Version 3.3.9&lt;/h3&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Bug fixes and stability improvements.&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.3.9/HoAh-3.3.9.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+        </item>
+        <item>
+            <title>3.3.8</title>
+            <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+            <sparkle:version>338</sparkle:version>
+            <sparkle:shortVersionString>3.3.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>
+                &lt;h3&gt;What's New in Version 3.3.8&lt;/h3&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;strong&gt;Onboarding Redesign:&lt;/strong&gt; Streamlined permissions flow with cleaner card-based UI.&lt;/li&gt;
+                    &lt;li&gt;&lt;strong&gt;Code Cleanup:&lt;/strong&gt; Removed duplicate localization keys and improved code quality.&lt;/li&gt;
+                &lt;/ul&gt;
+            </description>
+            <enclosure url="https://github.com/yangzichao/hoah-dictation/releases/download/v3.3.8/HoAh-3.3.8.dmg" length="0" type="application/octet-stream" sparkle:edSignature="" />
+        </item>
+    </channel>
+</rss>
