@@ -19,6 +19,7 @@ const HOAH_DATA = {
             "hero.help_link": "New to AI? Setup Guide →",
 
             "hero.guide_link": "User Guide →",
+            "hero.slogan": "Saving you at least one second on every HoAh dictation.",
 
             // Help Page (API Setup)
             "help.title": "Get Started with HoAh AI",
@@ -84,6 +85,7 @@ const HOAH_DATA = {
             "hero.disclaimer": "* 演示案例基于 <strong>gpt-oss-120B</strong>生成。实际效果因所选模型而异。",
             "hero.guide_link": "用户指南 →",
             "hero.help_link": "AI 新手？设置向导 →",
+            "hero.slogan": "每一次吼蛙听写，都为您省下至少一秒",
 
             // Help Page (API Setup)
             "help.title": "开启 HoAh AI 之旅",

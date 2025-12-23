@@ -240,6 +240,21 @@ header {
     opacity: 0.8;
 }
 
+.hero-slogan {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    opacity: 0.6;
+    font-weight: 300;
+    margin-top: 1.5rem;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    transition: opacity 0.3s ease;
+}
+
+.hero-slogan:hover {
+    opacity: 0.9;
+}
+
 .model-disclaimer {
     font-size: 0.75rem;
     color: var(--text-muted);
