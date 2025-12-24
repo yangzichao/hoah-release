@@ -3,27 +3,8 @@
     <channel>
         <title>HoAh Releases</title>
         <item>
-            <title>3.4.8</title>
-            <pubDate>Wed, 24 Dec 2025 01:38:38 +0000</pubDate>
-            <sparkle:version>348</sparkle:version>
-            <sparkle:shortVersionString>3.4.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description>&lt;![CDATA[
-
-# HoAh Dictation v3.4.8
-
-### New Features
-* **Homepage Slogan**: Added a new subtle slogan to the homepage to highlight time-saving benefits ("Every second saved with HoAh, counts").
-
-### Improvements
-* **Documentation**: Updated verification metrics for release instructions.
-
-]]&gt;</description>
-            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.4.8/HoAh-3.4.8.dmg" length="0" type="application/octet-stream" />
-        </item>
-        <item>
             <title>3.4.7</title>
-            <pubDate>Sat, 20 Dec 2025 06:51:20 +0000</pubDate>
+            <pubDate>Wed, 24 Dec 2025 01:59:28 +0000</pubDate>
             <sparkle:version>347</sparkle:version>
             <sparkle:shortVersionString>3.4.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
@@ -44,6 +25,25 @@
 
 ]]&gt;</description>
             <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.4.7/HoAh-3.4.7.dmg" length="0" type="application/octet-stream" />
+        </item>
+        <item>
+            <title>3.4.8</title>
+            <pubDate>Wed, 24 Dec 2025 01:38:38 +0000</pubDate>
+            <sparkle:version>348</sparkle:version>
+            <sparkle:shortVersionString>3.4.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>&lt;![CDATA[
+
+# HoAh Dictation v3.4.8
+
+### New Features
+* **Homepage Slogan**: Added a new subtle slogan to the homepage to highlight time-saving benefits ("Every second saved with HoAh, counts").
+
+### Improvements
+* **Documentation**: Updated verification metrics for release instructions.
+
+]]&gt;</description>
+            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.4.8/HoAh-3.4.8.dmg" length="0" type="application/octet-stream" />
         </item>
         <item>
             <title>3.4.6</title>
