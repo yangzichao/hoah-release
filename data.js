@@ -140,6 +140,7 @@ const HOAH_DATA = {
         { id: 'bash', icon: '💻', name: 'Bash Cmd', input: "Find all large files and delete them.", output: "find . -type f -size +100M -delete # WARNING: Handle with care!" },
         { id: 'regex', icon: '🧩', name: 'Regex', input: "Match a valid email address.", output: "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$" },
         { id: 'cron', icon: '⏰', name: 'Cron', input: "Run backup every Monday at 3 AM.", output: "0 3 * * 1 /path/to/backup.sh" },
+        { id: 'rust', icon: '🦀', name: 'Rust', input: "Hello world.", output: "println!(\"Hello world.\");" },
         { id: 'json', icon: '{}', name: 'JSON', input: "My name is Alice and I am 25.", output: "{\n  \"name\": \"Alice\",\n  \"age\": 25\n}" },
         { id: 'log', icon: '🪵', name: 'System Log', input: "I woke up late.", output: "[09:00:01] [WARN] System.WakeUpEvent delayed.\n[09:00:05] [CRITICAL] Coffee module not found. Initiating panic." },
         { id: 'latex', icon: '📝', name: 'LaTeX', input: "The quadratic formula.", output: "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$" },
@@ -152,24 +153,35 @@ const HOAH_DATA = {
         { id: 'base64', icon: '🔒', name: 'Base64', input: "Secret", output: "U2VjcmV0" },
 
         // --- Creative / Fun ---
-        { id: 'ascii', icon: '🖼️', name: 'ASCII Art', input: "HoAh", output: "  _    _       _    _ \n | |  | |     | |  | |\n | |__| | ___ | |__| |\n |  __  |/ _ \\|  __  |\n | |  | | (_) | |  | |\n |_|  |_|\\___/|_|  |_|" },
+
         { id: 'rap', icon: '🎤', name: 'Rap God', input: "I code all night.", output: "Yo, I stay up late, coding till the dawn,\nBugs beware, cause my skills are never gone.\nSyntax sharp, logic flows like a stream,\nLiving inside the compiler's dream. 🔥" },
         { id: 'ransom', icon: '🔪', name: 'Ransom Note', input: "Give me the money.", output: "gIvE mE tHe mOnEy. oR eLsE." },
         { id: 'reverse', icon: '◀️', name: 'Reverse', input: "Tenet", output: "teneT" },
         { id: 'dice', icon: '🎲', name: 'Roll D6', input: "Roll the dice!", output: "┌───────┐\n│ ●   ● │\n│   ●   │\n│ ●   ● │\n└───────┘" },
 
         // --- Persona / Character ---
+        { id: 'xhs', icon: '📕', name: 'Xiaohongshu', input: "This cake is delicious.", output: "家人们！这家店的蛋糕真的绝绝子🍰✨！好吃到哭😭 必须冲鸭！#yyds #下午茶" },
+        { id: 'chuuni', icon: '🎭', name: 'Chuunibyou', input: "I have a headache.", output: "My right eye... the seal of the dark dragon is weakening... Grahhh!" },
+        { id: 'soft', icon: '🎀', name: 'Soft Girl', input: "Can you help me?", output: "Could you pwease help me? 👉👈 🥺 I'd be so happy~ (｡♥‿♥｡)" },
         { id: 'genz', icon: '💀', name: 'Gen Z', input: "That was funny.", output: "Bro that was wild fr no cap 💀 I'm dead. LMAO." },
         { id: 'corporate', icon: '🍌', name: 'Corporate', input: "We need to fix this bug.", output: "Let's deep dive into this issue and leverage our synergy to circle back with a scalable solution by EOD." },
         { id: 'trump', icon: '🇺🇸', name: 'Trump', input: "The weather is nice.", output: "The weather is tremendous, folks! Maybe the best weather in the history of weather. Everyone agrees!" },
         { id: 'pirate', icon: '🏴‍☠️', name: 'Pirate', input: "Where is the bathroom?", output: "Ahoy! Where be the head, ye scurvy dog? Arrr!" },
         { id: 'medieval', icon: '⚔️', name: 'Medieval', input: "Can I have a beer?", output: "Hark, Innkeeper! Fetch me a flagon of thy finest ale, lest I perish of thirst!" },
         { id: 'uwu', icon: '😻', name: 'UwU Furry', input: "Please help me.", output: "Pwease help me mistew... uwu *looks at you with puppy eyes* I'm so scared... >w<" },
+        { id: 'bird', icon: '🐦', name: 'Birb', input: "I found a seed.", output: "SCREM! Seed! Is for me? *happy hops* Chirp! 🐦" },
+        { id: 'bunny', icon: '🐰', name: 'Bunny', input: "I am hungry.", output: "Um... c-can I have a carrot? *nervous nose wiggle* Please? 🐰" },
         { id: 'robot', icon: '🤖', name: 'Robot', input: "I love you.", output: "AFFIRMATIVE. EMOTION DETECTED. PROCESSING LOVE... ERROR: DOES NOT COMPUTE. INITIATE HUG_SUBROUTINE.EXE." },
         { id: 'yoda', icon: '👽', name: 'Yoda', input: "I am ready.", output: "Ready, I am. Hmmm." },
         { id: 'elvish', icon: '🧝', name: 'Elvish', input: "Hello friend.", output: "Mae govannen, mellon." },
         { id: 'minion', icon: '👓', name: 'Minion', input: "I am hungry.", output: "Banana? Banana! Me want banana! Poopaye!" },
-        { id: 'dnd', icon: '🐉', name: 'D&D Align', input: "I found a wallet.", output: "Lawful Good: Return it.\nChaotic Neutral: Keep the cash, leave the ID.\nChaotic Evil: Burn it for fun." }
+        { id: 'dnd', icon: '🐉', name: 'D&D Align', input: "I found a wallet.", output: "Lawful Good: Return it.\nChaotic Neutral: Keep the cash, leave the ID.\nChaotic Evil: Burn it for fun." },
+
+        // --- Pokémon ---
+        { id: 'pikachu', icon: '⚡', name: 'Pikachu', input: "I am happy!", output: "Pika Pika! Pikachu! ⚡" },
+        { id: 'snorlax', icon: '💤', name: 'Snorlax', input: "Wake up.", output: "Snor... lax... 💤" },
+        { id: 'charizard', icon: '🔥', name: 'Charizard', input: "Fight me!", output: "CHARIZAAAARD! 🔥" },
+        { id: 'meowth', icon: '🪙', name: 'Meowth', input: "Give me money.", output: "Hand over da cash! Meowth, dat's right! 😼" }
     ],
     demoCards: [
         {
