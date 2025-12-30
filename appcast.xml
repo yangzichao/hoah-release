@@ -3,6 +3,48 @@
     <channel>
         <title>HoAh Releases</title>
         <item>
+            <title>3.5.1</title>
+            <pubDate>Tue, 30 Dec 2025 08:12:33 +0000</pubDate>
+            <sparkle:version>351</sparkle:version>
+            <sparkle:shortVersionString>3.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>&lt;![CDATA[
+
+# HoAh Dictation v3.5.0
+
+### New Features
+* **Auto Daily Export**: Automatically save each transcription to a daily Markdown log file in real-time. Configure your export folder in History settings and never lose a transcription again!
+* **Fun Translation Styles**: New cute animal modes with authentic internet language styles:
+  - 🐱 Cat: Lolspeak (EN) / 喵语 (ZH) / ネコ語 (JP)
+  - 🐶 Dog: DoggoLingo (EN) / 汪语 (ZH) / ワン語 (JP)
+  - 🐦 Bird: Birb language (EN) / 鸟语 (ZH) / 鳥語 (JP)
+  - 🐰 Bunny: Soft shy bunny style
+* **Social Media Styles**: ✨ 小红书风 (Xiaohongshu), 🎀 软妹风 (Soft Girl), 🎭 中二病 (Chuunibyou)
+
+### Improvements
+* **Most Recently Used**: Translation targets now automatically move to the front of the list when used.
+* **Centralized State Management**: Translation language settings are now properly synchronized across all views.
+* **Collapsible Settings**: Auto export settings now use a compact collapsible design.
+
+---
+
+# HoAh Dictation v3.4.7
+
+### New Features
+* **Daily Markdown Export**: You can now export your transcription history as daily Markdown files, neatly organized in a folder with `hoah-` prefix. Perfect for Obsidian or other note-taking apps!
+* **Improved Localization**: Refined Chinese and English translations for export features.
+
+### Improvements
+* **CSV Export**: The option to export as a single CSV file is now clearly labeled.
+* **Release Pipeline**: Migrated to a new secure release infrastructure for better stability.
+
+### Fixes
+* **Localization Fixes**: Resolved XML structure issues in localization files.
+
+]]&gt;</description>
+            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.5.1/HoAh-3.5.1.dmg" length="0" type="application/octet-stream" />
+        </item>
+        <item>
             <title>3.5.0</title>
             <pubDate>Wed, 24 Dec 2025 19:56:57 +0000</pubDate>
             <sparkle:version>350</sparkle:version>
