@@ -3,6 +3,68 @@
     <channel>
         <title>HoAh Releases</title>
         <item>
+            <title>3.5.4</title>
+            <pubDate>Fri, 02 Jan 2026 17:00:47 +0000</pubDate>
+            <sparkle:version>354</sparkle:version>
+            <sparkle:shortVersionString>3.5.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description>&lt;![CDATA[
+
+# HoAh Dictation v3.5.4
+
+### Enhancements
+* **Icon Refresh**: Updated App Icon and Menu Bar Icon to strictly follow macOS Big Sur+ design guidelines for better size consistency and visual alignment.
+* **Vintage Visualizer**: Increased sensitivity for the Vintage theme ink visuals, making them more responsive and lively.
+
+---
+
+# HoAh Dictation v3.5.3
+
+### New Visualizers
+* **Cyberpunk Waveform**: Experience audio visualization like never before with a liquid, high-resolution continuous waveform that pulsates with your voice.
+* **Vintage Ink Dots**: A minimal, calming visualizer style featuring rounded, sparse ink dots.
+
+### Improvements
+* **Theme System**: Complete refactor of the Mini Recorder's visualization engine to be fully theme-driven, allowing for distinct shapes, sizes, and behaviors per theme.
+* **Deterministic Visuals**: Visualizer randomness is now seeded for consistent aesthetic behavior across sessions.
+
+---
+
+# HoAh Dictation v3.5.0
+
+### New Features
+* **Auto Daily Export**: Automatically save each transcription to a daily Markdown log file in real-time. Configure your export folder in History settings and never lose a transcription again!
+* **Fun Translation Styles**: New cute animal modes with authentic internet language styles:
+  - 🐱 Cat: Lolspeak (EN) / 喵语 (ZH) / ネコ語 (JP)
+  - 🐶 Dog: DoggoLingo (EN) / 汪语 (ZH) / ワン語 (JP)
+  - 🐦 Bird: Birb language (EN) / 鸟语 (ZH) / 鳥語 (JP)
+  - 🐰 Bunny: Soft shy bunny style
+* **Social Media Styles**: ✨ 小红书风 (Xiaohongshu), 🎀 软妹风 (Soft Girl), 🎭 中二病 (Chuunibyou)
+
+### Improvements
+* **Most Recently Used**: Translation targets now automatically move to the front of the list when used.
+* **Centralized State Management**: Translation language settings are now properly synchronized across all views.
+* **Collapsible Settings**: Auto export settings now use a compact collapsible design.
+
+---
+
+# HoAh Dictation v3.4.7
+
+### New Features
+* **Daily Markdown Export**: You can now export your transcription history as daily Markdown files, neatly organized in a folder with `hoah-` prefix. Perfect for Obsidian or other note-taking apps!
+* **Improved Localization**: Refined Chinese and English translations for export features.
+
+### Improvements
+* **CSV Export**: The option to export as a single CSV file is now clearly labeled.
+* **Release Pipeline**: Migrated to a new secure release infrastructure for better stability.
+
+### Fixes
+* **Localization Fixes**: Resolved XML structure issues in localization files.
+
+]]&gt;</description>
+            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v3.5.4/HoAh-3.5.4.dmg" length="0" type="application/octet-stream" />
+        </item>
+        <item>
             <title>3.5.3</title>
             <pubDate>Fri, 02 Jan 2026 14:10:27 +0000</pubDate>
             <sparkle:version>353</sparkle:version>
