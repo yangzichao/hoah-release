@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoAh for iOS - Sync Your Voice</title>
+    <meta name="description" content="HoAh for iOS. Local speech-to-text, synced seamlessly with your Mac. coming soon to TestFlight.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHF7KEGB0C"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-BHF7KEGB0C');
+    </script>
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="glow-bg"></div>
+
+    <header>
+        <a href="../index.html" class="logo-container">
+            <span class="logo-text">HoAh</span>
+        </a>
+        <div class="header-right">
+            <button id="lang-toggle" class="lang-toggle">EN / 中</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero centered-hero">
+            <div class="container column-layout">
+                <div class="hero-content text-center">
+                    <div class="badge blue" style="width: fit-content; margin: 0 auto 1.5rem auto; border-radius: 20px;">Coming Soon</div>
+                    <h1 class="hero-title">
+                        <span class="gradient-text-1" data-i18n="ios.hero.title">HoAh for iOS</span>
+                    </h1>
+                    <p class="hero-subtitle" data-i18n="ios.hero.subtitle">
+                        The power of HoAh, now in your pocket. <br><strong>Local, Fast, and Syncs</strong> seamlessly with
+                        your Mac.
+                    </p>
+
+                    <div class="cta-group">
+                        <a href="https://testflight.apple.com/join/placeholder" class="cta-button primary">
+                            <span class="icon">✈️</span>
+                            <span class="text" data-i18n="ios.cta.testflight">Join TestFlight Beta</span>
+                        </a>
+                        <!-- 
+                        <a href="#" class="cta-button" style="background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2);">
+                            <span class="text" data-i18n="ios.cta.waitlist">Join Waitlist</span>
+                        </a> 
+                        -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" style="background: transparent;">
+            <div class="container">
+                <div class="features-grid" style="justify-content: center;">
+                    <div class="feature-card">
+                        <div class="card-icon">☁️</div>
+                        <h3 data-i18n="ios.feat.sync.title">iCloud Sync</h3>
+                        <p data-i18n="ios.feat.sync.desc">
+                            Your history, vocabulary, and settings sync instantly across all your devices.
+                        </p>
+                    </div>
+                    <div class="feature-card highlighted">
+                        <div class="card-icon">📱</div>
+                        <h3 data-i18n="ios.feat.mobile.title">Mobile Optimized</h3>
+                        <p data-i18n="ios.feat.mobile.desc">
+                            Designed for touch. Record professionally on the go with the same powerful AI models.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reuse Company Strip as social proof that the ecosystem is trusted? Optional. 
+             Maybe skip for "Simple". -->
+
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <p>&copy; 2025 HoAh. Open Source under GPL-3.0.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="../data.js"></script>
+        <script src="../script.js"></script>
+</body>
+
+</html>

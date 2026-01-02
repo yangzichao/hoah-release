@@ -21,6 +21,17 @@ const HOAH_DATA = {
             "hero.guide_link": "User Guide →",
             "hero.slogan": "Saving you at least one second on every HoAh dictation.",
 
+            // iOS Page
+            "ios.hero.title": "HoAh for iOS",
+            "ios.hero.subtitle": "The power of HoAh, now in your pocket. <br><strong>Local, Fast, and Syncs</strong> seamlessly with your Mac.",
+            "ios.cta.testflight": "Join TestFlight Beta",
+            "ios.cta.waitlist": "Join Waitlist",
+            "ios.feat.sync.title": "iCloud Sync",
+            "ios.feat.sync.desc": "Your history, vocabulary, and settings sync instantly across all your devices.",
+            "ios.feat.mobile.title": "Mobile Optimized",
+            "ios.feat.mobile.desc": "Designed for touch. Record professionally on the go with the same powerful AI models.",
+
+
             // Help Page (API Setup)
             "help.title": "Get Started with HoAh AI",
             "help.subtitle": "HoAh's dictation is <strong>100% local</strong> and <strong>free to use forever</strong>. To enable advanced <strong>polishing and translation</strong>, we connect to powerful cloud AI models. This requires a generic \"API Key\". Don't worry, it's simple to get and usually free!",
@@ -86,6 +97,17 @@ const HOAH_DATA = {
             "hero.guide_link": "用户指南 →",
             "hero.help_link": "AI 新手？设置向导 →",
             "hero.slogan": "每一次吼蛙听写，都为您省下至少一秒",
+
+            // iOS Page
+            "ios.hero.title": "吼蛙 (HoAh) iOS 版",
+            "ios.hero.subtitle": "HoAh 的强大能力，现已装进口袋。<br><strong>本地、极速</strong>，与您的 Mac <strong>无缝同步</strong>。",
+            "ios.cta.testflight": "加入 TestFlight 测试",
+            "ios.cta.waitlist": "加入候补名单",
+            "ios.feat.sync.title": "iCloud 同步",
+            "ios.feat.sync.desc": "您的历史记录、词汇表和设置将在所有设备间即时同步。",
+            "ios.feat.mobile.title": "移动端优化",
+            "ios.feat.mobile.desc": "专为触控设计。在移动中也能享受与桌面端一致的专业级语音 AI。",
+
 
             // Help Page (API Setup)
             "help.title": "开启 HoAh AI 之旅",
