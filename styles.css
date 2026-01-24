@@ -500,7 +500,7 @@ header {
     display: flex;
     gap: 5rem;
     width: max-content;
-    animation: scroll 40s linear infinite;
+    animation: scroll-companies 35s linear infinite;
     align-items: center;
 }
 
@@ -615,6 +615,18 @@ footer {
 
     100% {
         transform: translateX(calc(-380px * 11 - 22rem));
+    }
+}
+
+/* Separate animation for company logos: 7 logos per set, estimated ~120px avg width + 5rem gap each */
+@keyframes scroll-companies {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        /* Move exactly 1 set worth: 7 logos × (avg logo width ~120px + gap 5rem=80px) = 7 × 200px = 1400px */
+        transform: translateX(calc(-100% / 4));
     }
 }
 
