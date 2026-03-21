@@ -146,10 +146,59 @@
             </div>
         </div>
 
-        <!-- Step 3: Ollama Local -->
+        <!-- Step 3: Cloud Streaming Dictation -->
         <div class="step-section">
-            <div class="step-title" data-i18n="help.step3.title">3. Alternative: Run AI Locally with Ollama</div>
+            <div class="step-title" data-i18n="help.step3.title">3. Cloud Streaming Dictation</div>
             <p style="color: var(--text-muted); margin-bottom: 1.5rem;" data-i18n="help.step3.desc">
+                HoAh also supports <strong>cloud real-time streaming</strong> dictation for <strong>lower latency</strong> — text appears as you speak. We recommend <strong>ElevenLabs</strong> for the best overall experience. An API key from the provider is required.
+            </p>
+
+            <div class="provider-grid">
+                <!-- ElevenLabs -->
+                <div class="provider-card highlighted">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🎙️</div>
+                    <h3 class="provider-name">ElevenLabs <span style="font-size: 0.75rem; color: var(--accent); font-weight: 500;">★ Recommended</span></h3>
+                    <p class="provider-desc" data-i18n="help.provider.elevenlabs.desc">
+                        Scribe v2 model. <strong>Best overall streaming experience</strong>. Excellent multilingual support.
+                    </p>
+                    <div class="btn-group">
+                        <a href="https://elevenlabs.io/app/settings/api-keys" target="_blank" class="provider-btn" data-i18n="help.provider.btn">Get Key</a>
+                        <a href="https://elevenlabs.io/docs/api-reference/speech-to-text" target="_blank" class="provider-guide-link" data-i18n="help.provider.guide">View Guide</a>
+                    </div>
+                </div>
+
+                <!-- OpenAI Realtime -->
+                <div class="provider-card">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🧠</div>
+                    <h3 class="provider-name">OpenAI</h3>
+                    <p class="provider-desc" data-i18n="help.provider.openai_streaming.desc">
+                        GPT-4o Transcribe. <strong>Fastest streaming</strong>. Smart voice activity detection built in.
+                    </p>
+                    <div class="btn-group">
+                        <a href="https://platform.openai.com/api-keys" target="_blank" class="provider-btn" data-i18n="help.provider.btn">Get Key</a>
+                        <a href="https://platform.openai.com/docs/guides/realtime-transcription" target="_blank" class="provider-guide-link" data-i18n="help.provider.guide">View Guide</a>
+                    </div>
+                </div>
+
+                <!-- Amazon Transcribe -->
+                <div class="provider-card">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">☁️</div>
+                    <h3 class="provider-name">Amazon Transcribe</h3>
+                    <p class="provider-desc" data-i18n="help.provider.amazon.desc">
+                        AWS streaming transcription. <strong>Enterprise-grade</strong>. Reliable and multilingual.
+                    </p>
+                    <div class="btn-group">
+                        <a href="https://console.aws.amazon.com/iam/home#/security_credentials" target="_blank" class="provider-btn" data-i18n="help.provider.btn">Get Key</a>
+                        <a href="https://docs.aws.amazon.com/transcribe/latest/dg/streaming.html" target="_blank" class="provider-guide-link" data-i18n="help.provider.guide">View Guide</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Step 4: Ollama Local -->
+        <div class="step-section">
+            <div class="step-title" data-i18n="help.step4.title">4. Alternative: Run AI Locally with Ollama</div>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem;" data-i18n="help.step4.desc">
                 Don't want to use cloud APIs? <strong>Ollama</strong> lets you run AI models entirely on your Mac — no API key, no internet, no cost. Perfect for privacy-focused users.
             </p>
 
