@@ -62,15 +62,19 @@ a {
 
 /* --- Header --- */
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 1.5rem 2rem;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 100;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .logo-container {
