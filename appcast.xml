@@ -3,62 +3,6 @@
     <channel>
         <title>HoAh Releases</title>
         <item>
-            <title>4.0.1</title>
-            <pubDate>Mon, 09 Nov 2026 18:06:11 +0000</pubDate>
-            <sparkle:version>401</sparkle:version>
-            <sparkle:shortVersionString>4.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <h3>What's New in Version 4.0.1</h3>
-                <p>4.0.1 fixes a crash at launch in 4.0.0 and is otherwise the same release. HoAh 4.0 is the first update since 3.8.3, so these notes cover everything in between.</p>
-                <h4>New</h4>
-                <ul>
-                <li><strong>Meetings</strong>: Record a call or a meeting, both what your Mac plays and what you say, and get a transcript you can search, replay, and export as Markdown, plain text, SRT subtitles, or M4A audio. It has its own place in the sidebar.</li>
-                <li><strong>Workplace Mode</strong>: One switch that stops HoAh from making any network request, including cloud AI, update checks, and model downloads. Turn it on from the title bar, the menu bar, or Settings → Data &amp; Privacy.</li>
-                <li><strong>Auto Apply</strong>: Pick one AI Action to run on every ordinary dictation, or leave it off for plain dictation. It's in Settings → AI Actions, so there's no extra key to remember.</li>
-                <li><strong>Fn shortcuts for AI Actions</strong>: While dictating, Fn+⇧ runs Polish and Fn+1 to Fn+3 run the next actions in your list. On selected text, Fn+Z polishes and Fn+X translates.</li>
-                <li><strong>New on-device models</strong>: Granite Speech 1B, GLM-ASR Nano, and Parakeet Nano (MLX).</li>
-                <li><strong>More AI providers</strong>: Fireworks and Baseten.</li>
-                <li><strong>New AI Action templates</strong>: Meeting To-dos, Email Draft, Bilingual Polish, and Prompt Writer.</li>
-                <li><strong>Subtitle translation</strong>: Translate the subtitles that Audio to Text generates.</li>
-                <li><strong>Custom Dictionary</strong>: Add the names and terms you use so dictation gets them right, and set corrections for words it keeps getting wrong. It has its own page in the sidebar.</li>
-                <li><strong>What's New</strong>: This window. Open it again any time from the Help menu or Settings.</li>
-                </ul>
-                <h4>Improved</h4>
-                <ul>
-                <li><strong>Current cloud models</strong>: Model lists now match what each provider serves today. A saved setup on a model that is retired or scheduled to retire moves to its successor on its own.</li>
-                <li><strong>AI Actions that know you were speaking</strong>: Actions now treat the text as dictation, so cleanup comes out better. They fail right away when you're offline instead of waiting, and Cancel stops one that's already running.</li>
-                <li><strong>Faster Doubao</strong>: Doubao models reply much faster.</li>
-                <li><strong>Cleaner Chinese and mixed-language dictation</strong>: Fewer stock phrases that speech models make up in Chinese, and letters spelled out one at a time ("B O A") come back as one word.</li>
-                <li><strong>Easier setup</strong>: Choosing a dictation model starts from what you need, not from a list of model names. The tutorial opens in its own window and can be replayed from Help.</li>
-                <li><strong>Home, Settings, and History</strong>: A reworked home page, Settings grouped by what you're changing, and faster scrolling through long histories.</li>
-                <li><strong>Microphone access</strong>: If HoAh can't use the microphone, a notice takes you straight to the right page in System Settings.</li>
-                <li><strong>Hide from screen sharing</strong>: You can keep HoAh's windows out of screen shares. The switch is in the Meetings settings.</li>
-                </ul>
-                <h4>Fixed</h4>
-                <ul>
-                <li><strong>Crash at launch</strong>: HoAh 4.0.0 quit right after opening for anyone who had finished setup, and for new users as soon as setup ended. 4.0.1 opens normally.</li>
-                <li><strong>Memory</strong>: Memory no longer creeps up each time an on-device model reloads after sitting idle.</li>
-                <li><strong>Long recordings</strong>: The end of a long recording is no longer dropped, and switching microphones mid-recording no longer breaks it.</li>
-                <li><strong>Stability</strong>: Fixed a crash when live and file transcription used Qwen3 at the same time.</li>
-                <li><strong>Live text</strong>: Live transcription no longer stutters when you have slow custom corrections.</li>
-                <li><strong>Start and end of a dictation</strong>: The first words are less likely to be cut off, and an empty AI reply shows an error instead of pasting nothing.</li>
-                </ul>
-                <h4>Changed</h4>
-                <ul>
-                <li><strong>Removed providers</strong>: AWS Bedrock, Azure OpenAI, OCI Generative AI, and Amazon Transcribe are gone. If you used one, pick another provider after upgrading.</li>
-                <li><strong>whisper.cpp models removed</strong>: If you used Whisper v3 Turbo through whisper.cpp, HoAh moves you to WhisperKit Turbo, which may need a download.</li>
-                <li><strong>Themes</strong>: Frosted Glass becomes Vintage, and Cyberpunk becomes Basic.</li>
-                <li><strong>Selection Action shortcuts reset</strong>: They go back to Fn+Z for Polish and Fn+X for Translate, and the other slots start empty. Record any custom ones again.</li>
-                <li><strong>Built-in AI Actions update with the app</strong>: Their text can no longer be edited, and changes you made to the built-in Polish or Translate are replaced. Duplicate an action to make your own version.</li>
-                <li><strong>No longer available</strong>: Double-pressing the hotkey to paste and press Return, AI Action trigger words, and the dictation model and hotkey pickers in the menu bar.</li>
-                <li><strong>Bringing your history over</strong>: The first time 4.0 opens, macOS asks whether HoAh may access data from other apps. Allow it to keep your dictation history. Your settings come over either way.</li>
-                <li><strong>High Accuracy upgrade</strong>: On a Mac with 16 GB of memory or more, if you use Qwen3 0.6B or the standard WhisperKit model, HoAh may download the larger version in the background, then ask before switching.</li>
-                </ul>
-            ]]></description>
-            <enclosure url="https://github.com/yangzichao/hoah-release/releases/download/v4.0.1/HoAh-4.0.1.dmg" type="application/octet-stream"/>
-        </item>
-        <item>
             <title>3.8.3</title>
             <pubDate>Thu, 07 May 2026 21:29:49 +0000</pubDate>
             <sparkle:version>383</sparkle:version>
